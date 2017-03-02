@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@ec-europa/europa-component-library@git+https://github.com/ec-europa/europa-component-library.git":
+"@ec-europa/europa-component-library@git+https://github.com/ec-europa/europa-component-library.git#702c7ca":
   version "0.0.1"
-  resolved "git+https://github.com/ec-europa/europa-component-library.git#c6095a9cfbc66069bc833f70ed81ba56cf8d5829"
+  resolved "git+https://github.com/ec-europa/europa-component-library.git#702c7ca"
   dependencies:
     bootstrap-sass "3.3.7"
-    lunr "^1.0.0"
+    lunr "1.0.0"
 
 JSONStream@^0.8.4:
   version "0.8.4"
@@ -2208,7 +2208,7 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.1"
     yallist "^2.0.0"
 
-lunr@^1.0.0:
+lunr@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/lunr/-/lunr-1.0.0.tgz#5c9276c92c91ac35a9241b5018d46723d92e2f5f"
 

@@ -6,6 +6,7 @@
   "description": "",
   "private": true,
   "scripts": {
+    "build:copy": "node ./scripts/copy.js",
     "build:scripts": "rollup --config ./rollup.config.js",
     "build:styles": "node-sass ./src/styles.scss --include-path node_modules | postcss -c postcss.config.js",
     "build": "npm-run-all --parallel build:* -c",
@@ -42,7 +43,7 @@
     "stylelint-selector-bem-pattern": "1.0.0"
   },
   "dependencies": {
-    "@ec-europa/europa-component-library": "git+https://github.com/ec-europa/europa-component-library.git"
+    "@ec-europa/europa-component-library": "git+https://github.com/ec-europa/europa-component-library.git#702c7ca"
   },
   "engines": {
     "node": ">=6.9.5",
