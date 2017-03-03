@@ -1,5 +1,7 @@
 # ECL example
 
+[![Build Status](https://travis-ci.org/yhuard/ecl-example.svg?branch=master)](https://travis-ci.org/yhuard/ecl-example)
+
 Requirements:
 -   Node.js >= 6.9.5
 -   yarn >= 0.20.3 (recommended) or npm >= 3.x.x (tested with npm 3.10.10)
