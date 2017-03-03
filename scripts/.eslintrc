@@ -1,0 +1,6 @@
+---
+rules:
+  # It's okay to print in the console here
+  no-console: 0
+  # We can import dev dependencies here
+  import/no-extraneous-dependencies: 0
