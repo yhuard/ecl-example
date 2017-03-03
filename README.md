@@ -48,3 +48,21 @@ yarn lint
 # or if you prefer npm
 npm run lint
 ```
+
+## Make a new release
+
+```bash
+# with yarn
+yarn release
+# or if you prefer npm
+npm run release
+```
+
+This will generate the changelog notes, update the version number in `package.json`
+and create a new tag (without pushing it).
+
+If you're happy with what has been generated, you can now run:
+
+```bash
+git push --follow-tags origin master
+```
