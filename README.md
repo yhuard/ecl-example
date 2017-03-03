@@ -66,3 +66,10 @@ If you're happy with what has been generated, you can now run:
 ```bash
 git push --follow-tags origin master
 ```
+
+## Deploy the release to GitHub with Travis
+
+First, [create a GitHub token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/). The scopes for the token you need is public_repo or repo (if you need to access private repos). Add the `RELEASE_TOKEN`
+environment variable to your Travis project.
+
+Then, on every new tag, a GitHub release will automatically be created.

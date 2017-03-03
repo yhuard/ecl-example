@@ -1,0 +1,23 @@
+language: node_js
+
+# Disable email notifications
+notifications:
+  email: false
+
+sudo: false
+dist: trusty
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+script:
+  - npm run lint
+
+deploy:
+  provider: script
+  script: npm run travis:deploy
+  on:
+    tags: true
+    branch: master
